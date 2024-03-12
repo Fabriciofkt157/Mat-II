@@ -4,6 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela de login com Javascript</title>
+    <script>
+        var user = document.getElementById("user").value, password = document.getElementById("pass").value;
+        function verificar(){
+            if(user != null && password != null){
+                alert("Bem vindo! Login efetuado");
+
+            } else {
+                alert("Preencha todos os campos.");
+            }
+        }
+
+    </script>
 </head>
 <body>
     <form method="#" action="#">
@@ -16,8 +28,6 @@
         <input type="reset" value="Limpar">
 
     </form>
-    <script>
-
-    </script>
+    
 </body>
 </html>
