@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela de login com Javascript</title>
     <script>
-        var user = document.getElementById("user").value, password = document.getElementById("pass").value;
+        
         function verificar(){
-            alert(user + " " + password);
+            var user = document.getElementById("user").value, password = document.getElementById("pass").value;
+            //alert(user + " " + password);
             if(user != null && password != null){
                 alert("Bem vindo" + user +"!");
 
